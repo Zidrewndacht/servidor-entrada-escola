@@ -1,0 +1,19 @@
+{
+    "short_name": "IoT Entrada Escola",
+    "name": "IoT Entrada Escola",
+    "description": "Aplicativo para visualização de status de aluno por responsável",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "display_override": ["standalone", "fullscreen", "minimal-ui"],
+    "display": "standalone"
+}

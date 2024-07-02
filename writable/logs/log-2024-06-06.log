@@ -1,0 +1,136 @@
+CRITICAL - 2024-06-06 01:41:05 --> ParseError: syntax error, unexpected token "try"
+in APPPATH\Controllers\MQTTController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\!staging\\TESC-IoT\\App\\App\\Controllers\\MQTTController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MQTTController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MQTTController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\MQTTController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:41:09 --> ParseError: syntax error, unexpected token "try"
+in APPPATH\Controllers\MQTTController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\!staging\\TESC-IoT\\App\\App\\Controllers\\MQTTController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MQTTController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MQTTController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\MQTTController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:41:33 --> ParseError: syntax error, unexpected token "try"
+in APPPATH\Controllers\MQTTController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\!staging\\TESC-IoT\\App\\App\\Controllers\\MQTTController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MQTTController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MQTTController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\MQTTController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:08 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:08 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:09 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:10 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:11 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:11 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:11 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:42:12 --> ErrorException: Attempt to read property "Matr" on null
+in APPPATH\Models\StatusModel.php on line 33.
+ 1 APPPATH\Models\StatusModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Matr" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\StatusModel.php', 33)
+ 2 APPPATH\Controllers\AlunoController.php(90): App\Models\StatusModel->insertEvent(null)
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 01:50:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`)) in D:\!staging\TESC-IoT\App\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\!staging\TESC-IoT\App\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\!staging\TESC-IoT\App\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\!staging\TESC-IoT\App\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\!staging\TESC-IoT\App\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\!staging\TESC-IoT\App\App\Models\StatusModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\!staging\TESC-IoT\App\App\Controllers\AlunoController.php(96): App\Models\StatusModel->insertEvent(Object(stdClass))
+#6 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+#7 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+#8 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\!staging\TESC-IoT\App\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-06 01:50:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 2 APPPATH\Models\StatusModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\AlunoController.php(96): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:50:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'112385\', \'2024-06-06 01:50:30\', \'Entrada\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'112385\', \'2024-06-06 01:50:30\', \'Entrada\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 4 APPPATH\Models\StatusModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\AlunoController.php(96): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 01:50:30 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'112385\', \'2024-06-06 01:50:30\', \'Entrada\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'112385\', \'2024-06-06 01:50:30\', \'Entrada\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'112385\', \'2024-06-06 01:50:30\', \'Entrada\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 5 APPPATH\Models\StatusModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\AlunoController.php(96): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

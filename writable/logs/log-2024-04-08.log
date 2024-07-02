@@ -1,0 +1,698 @@
+CRITICAL - 2024-04-08 01:15:16 --> Error: Call to undefined function App\Controllers\listaAlunos()
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 01:15:37 --> Error: Call to undefined function App\Controllers\listaAlunos()
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 01:15:59 --> Error: Undefined constant "App\Controllers\AdminController"
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 01:16:56 --> Error: Call to undefined method App\Controllers\AdminController::listaResp()
+in APPPATH/Controllers/AdminController.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-08 01:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 02:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 02:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-08 02:40:13 --> BadMethodCallException: Call to undefined method App\Models\AlunoModel::getLastEventForEachAluno
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/AdminController.php(14): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 02:40:23 --> Error: Cannot use object of type stdClass as array
+in APPPATH/Views/admin/tabela_alunos.php on line 13.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminController.php(16): view()
+ 5 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-08 02:47:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '//bruxaria do Bing Chat, estudar depois:
+            SELECT cad_alunos.Aluno...' at line 1 in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/app/Models/AlunoModel.php(10): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/app/Controllers/AdminController.php(14): App\Models\AlunoModel->getLastEventForEachAluno()
+#5 /home/vagrant/app/app/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+#6 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\AdminController->index()
+#7 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#8 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-08 02:47:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '//bruxaria do Bing Chat, estudar depois:
+            SELECT cad_alunos.Aluno...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/AlunoModel.php(10): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/AdminController.php(14): App\Models\AlunoModel->getLastEventForEachAluno()
+ 3 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 02:47:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '//bruxaria do Bing Chat, estudar depois:
+            SELECT cad_alunos.Aluno...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/AlunoModel.php(10): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/AdminController.php(14): App\Models\AlunoModel->getLastEventForEachAluno()
+ 5 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 02:47:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '//bruxaria do Bing Chat, estudar depois:
+            SELECT cad_alunos.Aluno...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/AlunoModel.php(10): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/AdminController.php(14): App\Models\AlunoModel->getLastEventForEachAluno()
+ 6 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 03:01:55 --> ErrorException: Undefined property: stdClass::$Matr
+in APPPATH/Views/admin/tabela_alunos.php on line 12.
+ 1 APPPATH/Views/admin/tabela_alunos.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/tabela_alunos.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(16): view()
+ 6 APPPATH/Controllers/AdminController.php(28): App\Controllers\AdminController->listaAlunos()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 03:26:06 --> ErrorException: Undefined property: App\Controllers\AdminController::$TableViewController
+in APPPATH/Controllers/AdminController.php on line 14.
+ 1 APPPATH/Controllers/AdminController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 03:31:03 --> ErrorException: Undefined property: stdClass::$Matr
+in APPPATH/Views/admin/tabela_alunos.php on line 12.
+ 1 APPPATH/Views/admin/tabela_alunos.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/tabela_alunos.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(14): view()
+ 6 APPPATH/Controllers/AdminController.php(35): App\Controllers\AdminController->listaAlunos()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:28:41 --> ArgumentCountError: Too few arguments to function App\Models\AlunoModel::statusAluno(), 0 passed in /home/vagrant/app/app/Controllers/AdminController.php on line 26 and exactly 1 expected
+in APPPATH/Models/AlunoModel.php on line 24.
+ 1 APPPATH/Controllers/AdminController.php(26): App\Models\AlunoModel->statusAluno()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:34:52 --> ArgumentCountError: Too few arguments to function App\Controllers\AdminController::statusAluno(), 0 passed in /home/vagrant/app/system/CodeIgniter.php on line 943 and exactly 1 expected
+in APPPATH/Controllers/AdminController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:36:30 --> ArgumentCountError: Too few arguments to function App\Models\AlunoModel::statusAluno(), 0 passed in /home/vagrant/app/app/Controllers/AdminController.php on line 26 and exactly 1 expected
+in APPPATH/Models/AlunoModel.php on line 24.
+ 1 APPPATH/Controllers/AdminController.php(26): App\Models\AlunoModel->statusAluno()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:36:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "123456.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:37:13 --> ParseError: syntax error, unexpected token "(", expecting ":"
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:37:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "123456.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:37:33 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:38:23 --> ArgumentCountError: Too few arguments to function App\Models\AlunoModel::statusAluno(), 0 passed in /home/vagrant/app/app/Controllers/AdminController.php on line 26 and exactly 1 expected
+in APPPATH/Models/AlunoModel.php on line 24.
+ 1 APPPATH/Controllers/AdminController.php(26): App\Models\AlunoModel->statusAluno()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:38:38 --> ErrorException: Undefined variable $db
+in APPPATH/Models/AlunoModel.php on line 25.
+ 1 APPPATH/Models/AlunoModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/AdminController.php(26): App\Models\AlunoModel->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:39:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "123456.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:41:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "123456.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:42:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "123456.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:43:00 --> ParseError: syntax error, unexpected single-quoted string "Views/templates/status_aluno", expecting variable or "{" or "$"
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:43:13 --> ErrorException: Undefined variable $aluno
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:47:41 --> ErrorException: Undefined variable $alunoModel
+in APPPATH/Controllers/AdminController.php on line 26.
+ 1 APPPATH/Controllers/AdminController.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:48:23 --> BadMethodCallException: Call to undefined method App\Models\AlunoModel::getAlunoByMatr
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/AdminController.php(26): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:48:38 --> BadMethodCallException: Call to undefined method App\Models\AlunoModel::statusAluno
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/AdminController.php(27): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:49:01 --> TypeError: view(): Argument #2 ($data) must be of type array, stdClass given, called in /home/vagrant/app/app/Controllers/AdminController.php on line 29
+in SYSTEMPATH/Common.php on line 1166.
+ 1 APPPATH/Controllers/AdminController.php(29): view()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:50:26 --> ErrorException: Undefined variable $status
+in APPPATH/Views/templates/status_aluno.php on line 6.
+ 1 APPPATH/Views/templates/status_aluno.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(34): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 04:54:05 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+in APPPATH/Controllers/AdminController.php on line 32.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-08 04:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 04:55:01 --> CSRF token verified.
+INFO - 2024-04-08 04:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 04:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 04:56:00 --> CSRF token verified.
+INFO - 2024-04-08 04:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 04:56:10 --> CSRF token verified.
+INFO - 2024-04-08 04:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:01:44 --> CSRF token verified.
+INFO - 2024-04-08 05:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:02:09 --> CSRF token verified.
+INFO - 2024-04-08 05:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-08 05:26:52 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+in APPPATH/Controllers/AdminController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:26:55 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+in APPPATH/Controllers/AdminController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:27:25 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH/Controllers/AdminController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:27:57 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:28:02 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:28:06 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:28:29 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:28:41 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:28:43 --> ErrorException: Cannot redeclare App\Controllers\AdminController::writeTag()
+in APPPATH/Controllers/AdminController.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 05:29:21 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+in APPPATH/Controllers/AdminController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-08 05:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-08 05:34:54 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:34:54 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:09 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:09 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:21 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:21 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:35 --> Error: Object of class stdClass could not be converted to string
+in APPPATH/Views/templates/header.php on line 6.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/AdminController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:55 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:35:55 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:36:15 --> ParseError: syntax error, unexpected token "."
+in APPPATH/Controllers/AdminController.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:36:27 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:36:27 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:37:31 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:37:31 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:37:37 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:37:37 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-08 05:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 05:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-08 05:37:52 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:37:52 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:38:48 --> ErrorException: Undefined variable $status
+in APPPATH/Controllers/AdminController.php on line 33.
+ 1 APPPATH/Controllers/AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:38:50 --> ErrorException: Undefined variable $status
+in APPPATH/Controllers/AdminController.php on line 33.
+ 1 APPPATH/Controllers/AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:39:22 --> ErrorException: Undefined variable $status
+in APPPATH/Controllers/AdminController.php on line 33.
+ 1 APPPATH/Controllers/AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:39:26 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 05:39:26 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:02:41 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:02:41 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:04:35 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:04:35 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:04:58 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:05:03 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:05:03 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 4.
+ 1 APPPATH/Views/templates/status_aluno.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:12:09 --> ParseError: syntax error, unexpected token "=>"
+in APPPATH/Controllers/AdminController.php on line 31.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:12:18 --> ErrorException: Undefined variable $aluno
+in APPPATH/Controllers/AdminController.php on line 31.
+ 1 APPPATH/Controllers/AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:12:28 --> ErrorException: Undefined variable $eventos
+in APPPATH/Controllers/AdminController.php on line 32.
+ 1 APPPATH/Controllers/AdminController.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:12:35 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:12:35 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 28.
+ 1 APPPATH/Controllers/AdminController.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:22:46 --> ParseError: Unmatched ')'
+in APPPATH/Views/templates/header.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:29:57 --> ParseError: syntax error, unexpected double-quote mark, expecting "," or ";"
+in APPPATH/Views/templates/header.php on line 8.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:09:21 --> ErrorException: Cannot redeclare App\Controllers\AdminController::removeAluno()
+in APPPATH/Controllers/AdminController.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-08 22:09:25 --> ErrorException: Cannot redeclare App\Controllers\AdminController::removeAluno()
+in APPPATH/Controllers/AdminController.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-04-08 22:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 22:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-08 23:07:30 --> ErrorException: Attempt to read property "CPF" on array
+in APPPATH/Views/admin/tabela_resp.php on line 16.
+ 1 APPPATH/Views/admin/tabela_resp.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/tabela_resp.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AdminController.php(21): view()
+ 6 APPPATH/Controllers/AdminController.php(60): App\Controllers\AdminController->listaResp()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 23:30:20 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/AdminController.php on line 73.
+ 1 APPPATH/Controllers/AdminController.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AdminController->statusAluno()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-08 23:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 23:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 23:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-08 23:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

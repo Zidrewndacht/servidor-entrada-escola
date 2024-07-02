@@ -1,0 +1,198 @@
+CRITICAL - 2024-04-06 19:00:22 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/" is not a valid URL.
+in SYSTEMPATH/HTTP/SiteURI.php on line 199.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 2 SYSTEMPATH/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 3 SYSTEMPATH/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+ 4 SYSTEMPATH/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 5 SYSTEMPATH/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+11 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+12 SYSTEMPATH/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+13 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH/Config/Services.php(539): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH/CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 19:00:22 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/" is not a valid URL. in /home/vagrant/app/system/HTTP/SiteURI.php:199
+Stack trace:
+#0 /home/vagrant/app/system/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#1 /home/vagrant/app/system/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#2 /home/vagrant/app/system/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+#3 /home/vagrant/app/system/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#4 /home/vagrant/app/system/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#6 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#7 /home/vagrant/app/system/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 /home/vagrant/app/system/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#11 /home/vagrant/app/system/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+#12 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 /home/vagrant/app/system/Config/Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 /home/vagrant/app/system/Debug/Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "/" is not a valid URL.
+#0 /home/vagrant/app/system/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#1 /home/vagrant/app/system/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#2 /home/vagrant/app/system/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+#3 /home/vagrant/app/system/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#4 /home/vagrant/app/system/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#6 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#7 /home/vagrant/app/system/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 /home/vagrant/app/system/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#11 /home/vagrant/app/system/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+#12 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 /home/vagrant/app/system/Config/Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 /home/vagrant/app/system/Config/Services.php(539): CodeIgniter\Config\BaseService::__callStatic()
+#17 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 /home/vagrant/app/system/CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic()
+#19 /home/vagrant/app/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#20 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH/HTTP/SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-06 19:00:35 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/" is not a valid URL.
+in SYSTEMPATH/HTTP/SiteURI.php on line 199.
+ 1 SYSTEMPATH/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+ 2 SYSTEMPATH/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+ 3 SYSTEMPATH/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+ 4 SYSTEMPATH/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+ 5 SYSTEMPATH/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+11 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+12 SYSTEMPATH/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+13 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+14 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance()
+16 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+17 SYSTEMPATH/Config/Services.php(539): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+19 SYSTEMPATH/CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic()
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 19:00:35 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/" is not a valid URL. in /home/vagrant/app/system/HTTP/SiteURI.php:199
+Stack trace:
+#0 /home/vagrant/app/system/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#1 /home/vagrant/app/system/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#2 /home/vagrant/app/system/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+#3 /home/vagrant/app/system/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#4 /home/vagrant/app/system/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#6 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#7 /home/vagrant/app/system/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 /home/vagrant/app/system/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#11 /home/vagrant/app/system/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+#12 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 /home/vagrant/app/system/Config/Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 /home/vagrant/app/system/Debug/Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic()
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "/" is not a valid URL.
+#0 /home/vagrant/app/system/HTTP/SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL()
+#1 /home/vagrant/app/system/HTTP/SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL()
+#2 /home/vagrant/app/system/HTTP/SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct()
+#3 /home/vagrant/app/system/HTTP/SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath()
+#4 /home/vagrant/app/system/Config/Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#6 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#7 /home/vagrant/app/system/Config/Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 /home/vagrant/app/system/Config/Services.php(566): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#11 /home/vagrant/app/system/Config/Services.php(524): CodeIgniter\Config\BaseService::__callStatic()
+#12 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::request()
+#13 /home/vagrant/app/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+#14 /home/vagrant/app/system/Config/Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance()
+#15 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::incomingrequest()
+#16 /home/vagrant/app/system/Config/Services.php(539): CodeIgniter\Config\BaseService::__callStatic()
+#17 /home/vagrant/app/system/Config/BaseService.php(258): CodeIgniter\Config\Services::createRequest()
+#18 /home/vagrant/app/system/CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic()
+#19 /home/vagrant/app/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#20 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH/HTTP/SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-06 19:03:11 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 20:41:48 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::getNews
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/News.php(12): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\News->index()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 20:42:02 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::getNews
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/News.php(12): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\News->index()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 20:43:16 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::getNews
+in SYSTEMPATH/Model.php on line 879.
+ 1 APPPATH/Controllers/News.php(12): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\News->index()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 20:45:55 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH/Models/NewsModel.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(280): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 7 SYSTEMPATH/Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+ 8 APPPATH/Controllers/News.php(10): model()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\News->index()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-06 21:26:18 --> ErrorException: Cannot redeclare Config\Filters::$methods
+in APPPATH/Config/Filters.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-04-06 21:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-06 21:35:51 --> CSRF token verified.
+INFO - 2024-04-06 21:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-06 21:35:59 --> CSRF token verified.
+INFO - 2024-04-06 21:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-06 21:36:39 --> CSRF token verified.
+INFO - 2024-04-06 21:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,917 @@
+INFO - 2024-04-13 00:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:02:52 --> CSRF token verified.
+INFO - 2024-04-13 00:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-13 00:04:39 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/RespController.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:04:39 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/RespController.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:04:50 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/RespController.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(901): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:10:37 --> CSRF token verified.
+INFO - 2024-04-13 00:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:20:04 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:20:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Views/templates/write_tag.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AlunoController.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:20:29 --> CSRF token verified.
+INFO - 2024-04-13 00:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:21:02 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:21:02 --> ErrorException: Undefined variable $aluno
+in APPPATH/Views/admin/write_tag.php on line 1.
+ 1 APPPATH/Views/admin/write_tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/write_tag.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AlunoController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:21:50 --> CSRF token verified.
+ERROR - 2024-04-13 00:21:50 --> mysqli_sql_exception: Duplicate entry '2187398237498327' for key 'PRIMARY' in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vagrant/app/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/vagrant/app/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /home/vagrant/app/system/BaseModel.php(713): CodeIgniter\Model->insert()
+#8 /home/vagrant/app/app/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+#9 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+#10 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#11 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-13 00:21:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '2187398237498327' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:21:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '2187398237498327' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:21:50 --> [Caused by] mysqli_sql_exception: Duplicate entry '2187398237498327' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+11 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:22:05 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:22:05 --> ErrorException: Undefined variable $aluno
+in APPPATH/Views/admin/write_tag.php on line 1.
+ 1 APPPATH/Views/admin/write_tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/write_tag.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AlunoController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:22:42 --> CSRF token verified.
+ERROR - 2024-04-13 00:22:42 --> mysqli_sql_exception: Duplicate entry '0890s95959099' for key 'PRIMARY' in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vagrant/app/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/vagrant/app/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /home/vagrant/app/system/BaseModel.php(713): CodeIgniter\Model->insert()
+#8 /home/vagrant/app/app/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+#9 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+#10 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#11 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-13 00:22:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0890s95959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:22:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0890s95959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:22:42 --> [Caused by] mysqli_sql_exception: Duplicate entry '0890s95959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+11 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:23:57 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:23:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Views/admin/write_tag/0819s5959099.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AlunoController.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 5 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:30:04 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:30:04 --> ErrorException: Undefined variable $data
+in APPPATH/Views/admin/ask_first_tag.php on line 1.
+ 1 APPPATH/Views/admin/ask_first_tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/admin/ask_first_tag.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AlunoController.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:30:29 --> CSRF token verified.
+ERROR - 2024-04-13 00:30:29 --> mysqli_sql_exception: Duplicate entry '0890925959099' for key 'PRIMARY' in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vagrant/app/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/vagrant/app/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /home/vagrant/app/system/BaseModel.php(713): CodeIgniter\Model->insert()
+#8 /home/vagrant/app/app/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+#9 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+#10 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#11 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-13 00:30:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0890925959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:30:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0890925959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:30:29 --> [Caused by] mysqli_sql_exception: Duplicate entry '0890925959099' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/AlunoController.php(28): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->POSTnovoAluno()
+11 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:31:17 --> CSRF token verified.
+INFO - 2024-04-13 00:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:31:55 --> CSRF token verified.
+INFO - 2024-04-13 00:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:34:57 --> CSRF token verified.
+INFO - 2024-04-13 00:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:40:59 --> CSRF token verified.
+INFO - 2024-04-13 00:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:41:41 --> CSRF token verified.
+INFO - 2024-04-13 00:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:43:19 --> CSRF token verified.
+INFO - 2024-04-13 00:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:39 --> CSRF token verified.
+INFO - 2024-04-13 00:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:42 --> CSRF token verified.
+CRITICAL - 2024-04-13 00:45:44 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 1.
+ 1 APPPATH/Views/templates/status_aluno.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AlunoController.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->removeAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 00:45:44 --> ErrorException: Attempt to read property "Aluno" on null
+in APPPATH/Views/templates/status_aluno.php on line 1.
+ 1 APPPATH/Views/templates/status_aluno.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/vagrant/app/app/Views/templates/status_aluno.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/AlunoController.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\AlunoController->removeAluno()
+ 7 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 00:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:45:58 --> CSRF token verified.
+INFO - 2024-04-13 00:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 00:46:50 --> CSRF token verified.
+INFO - 2024-04-13 01:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:21 --> CSRF token verified.
+INFO - 2024-04-13 01:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:35 --> CSRF token verified.
+INFO - 2024-04-13 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:31:03 --> CSRF token verified.
+INFO - 2024-04-13 01:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:36:04 --> CSRF token verified.
+CRITICAL - 2024-04-13 01:36:04 --> Error: Call to undefined function App\Controllers\assocResp()
+in APPPATH/Controllers/RespController.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-13 01:36:46 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(182): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(475): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:38:51 --> CSRF token verified.
+CRITICAL - 2024-04-13 01:38:51 --> Error: Call to undefined function App\Controllers\assocResp()
+in APPPATH/Controllers/RespController.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+ 2 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:39:14 --> CSRF token verified.
+ERROR - 2024-04-13 01:39:14 --> mysqli_sql_exception: Duplicate entry '12312321123' for key 'PRIMARY' in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vagrant/app/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/vagrant/app/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /home/vagrant/app/system/BaseModel.php(713): CodeIgniter\Model->insert()
+#8 /home/vagrant/app/app/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+#9 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+#10 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#11 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-13 01:39:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 01:39:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 01:39:14 --> [Caused by] mysqli_sql_exception: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+11 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:39:34 --> CSRF token verified.
+CRITICAL - 2024-04-13 01:39:34 --> ErrorException: Undefined variable $cpf
+in APPPATH/Controllers/RespController.php on line 39.
+ 1 APPPATH/Controllers/RespController.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:02 --> CSRF token verified.
+INFO - 2024-04-13 01:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:10 --> CSRF token verified.
+INFO - 2024-04-13 01:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:31 --> CSRF token verified.
+INFO - 2024-04-13 01:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:40:55 --> CSRF token verified.
+INFO - 2024-04-13 01:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:41:02 --> CSRF token verified.
+INFO - 2024-04-13 01:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:42:23 --> CSRF token verified.
+CRITICAL - 2024-04-13 01:42:23 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH/Models/RespModel.php on line 48.
+ 1 APPPATH/Models/RespModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(80): App\Models\RespModel->updateAssociations()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTassocResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:42:35 --> CSRF token verified.
+INFO - 2024-04-13 01:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:26 --> CSRF token verified.
+INFO - 2024-04-13 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:46:50 --> CSRF token verified.
+ERROR - 2024-04-13 01:46:50 --> mysqli_sql_exception: Duplicate entry '12312321123' for key 'PRIMARY' in /home/vagrant/app/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/vagrant/app/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/vagrant/app/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/vagrant/app/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/vagrant/app/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/vagrant/app/system/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vagrant/app/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/vagrant/app/system/Model.php(749): CodeIgniter\BaseModel->insert()
+#7 /home/vagrant/app/system/BaseModel.php(713): CodeIgniter\Model->insert()
+#8 /home/vagrant/app/app/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+#9 /home/vagrant/app/system/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+#10 /home/vagrant/app/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#11 /home/vagrant/app/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/vagrant/app/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-13 01:46:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+ 8 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 01:46:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 7 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+ 9 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+10 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 01:46:50 --> [Caused by] mysqli_sql_exception: Duplicate entry '12312321123' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(749): CodeIgniter\BaseModel->insert()
+ 8 SYSTEMPATH/BaseModel.php(713): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/RespController.php(33): CodeIgniter\BaseModel->save()
+10 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTnovoResp()
+11 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 01:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:48:35 --> CSRF token verified.
+INFO - 2024-04-13 01:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:50:55 --> CSRF token verified.
+INFO - 2024-04-13 01:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:51:28 --> CSRF token verified.
+INFO - 2024-04-13 01:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:51:33 --> CSRF token verified.
+INFO - 2024-04-13 01:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:51:41 --> CSRF token verified.
+INFO - 2024-04-13 01:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:53:19 --> CSRF token verified.
+INFO - 2024-04-13 01:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 01:59:33 --> CSRF token verified.
+INFO - 2024-04-13 02:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:02:46 --> CSRF token verified.
+INFO - 2024-04-13 02:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:03:49 --> CSRF token verified.
+INFO - 2024-04-13 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:04:22 --> CSRF token verified.
+INFO - 2024-04-13 02:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:39 --> CSRF token verified.
+INFO - 2024-04-13 02:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:43 --> CSRF token verified.
+INFO - 2024-04-13 02:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:47 --> CSRF token verified.
+INFO - 2024-04-13 02:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:50 --> CSRF token verified.
+INFO - 2024-04-13 02:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:55 --> CSRF token verified.
+INFO - 2024-04-13 02:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:05:58 --> CSRF token verified.
+INFO - 2024-04-13 02:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:01 --> CSRF token verified.
+INFO - 2024-04-13 02:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:04 --> CSRF token verified.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:06:48 --> CSRF token verified.
+INFO - 2024-04-13 02:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:07 --> CSRF token verified.
+INFO - 2024-04-13 02:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:44 --> CSRF token verified.
+INFO - 2024-04-13 02:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:09:56 --> CSRF token verified.
+INFO - 2024-04-13 02:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:11:28 --> CSRF token verified.
+INFO - 2024-04-13 02:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:14:01 --> CSRF token verified.
+INFO - 2024-04-13 02:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:14:15 --> CSRF token verified.
+CRITICAL - 2024-04-13 02:14:15 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH/Models/RespModel.php on line 48.
+ 1 APPPATH/Models/RespModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(80): App\Models\RespModel->updateAssociations()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTassocResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 02:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:14:43 --> CSRF token verified.
+INFO - 2024-04-13 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:14:47 --> CSRF token verified.
+INFO - 2024-04-13 02:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:15:48 --> CSRF token verified.
+CRITICAL - 2024-04-13 02:15:48 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH/Models/RespModel.php on line 48.
+ 1 APPPATH/Models/RespModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(80): App\Models\RespModel->updateAssociations()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->POSTassocResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 02:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:18:26 --> CSRF token verified.
+INFO - 2024-04-13 02:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:18:40 --> CSRF token verified.
+INFO - 2024-04-13 02:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:18:47 --> CSRF token verified.
+INFO - 2024-04-13 02:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:30:42 --> CSRF token verified.
+INFO - 2024-04-13 02:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:31:08 --> CSRF token verified.
+INFO - 2024-04-13 02:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:31:15 --> CSRF token verified.
+INFO - 2024-04-13 02:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:33:37 --> CSRF token verified.
+INFO - 2024-04-13 02:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:33:46 --> CSRF token verified.
+INFO - 2024-04-13 02:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:33:57 --> CSRF token verified.
+INFO - 2024-04-13 02:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:34:02 --> CSRF token verified.
+INFO - 2024-04-13 02:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 02:34:13 --> CSRF token verified.
+INFO - 2024-04-13 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 13:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 13:07:14 --> CSRF token verified.
+INFO - 2024-04-13 15:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:03:04 --> CSRF token verified.
+INFO - 2024-04-13 15:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:13:41 --> CSRF token verified.
+INFO - 2024-04-13 15:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:14:02 --> CSRF token verified.
+INFO - 2024-04-13 15:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:14:08 --> CSRF token verified.
+INFO - 2024-04-13 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:14:13 --> CSRF token verified.
+INFO - 2024-04-13 15:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:26 --> CSRF token verified.
+INFO - 2024-04-13 15:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:30 --> CSRF token verified.
+INFO - 2024-04-13 15:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:38 --> CSRF token verified.
+INFO - 2024-04-13 15:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:48 --> CSRF token verified.
+INFO - 2024-04-13 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:26:54 --> CSRF token verified.
+INFO - 2024-04-13 15:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 15:28:02 --> CSRF token verified.
+INFO - 2024-04-13 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:18:58 --> CSRF token verified.
+INFO - 2024-04-13 17:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 17:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:15:43 --> CSRF token verified.
+INFO - 2024-04-13 18:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:26:46 --> CSRF token verified.
+INFO - 2024-04-13 18:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:26:51 --> CSRF token verified.
+INFO - 2024-04-13 18:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:27:02 --> CSRF token verified.
+INFO - 2024-04-13 18:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:27:08 --> CSRF token verified.
+INFO - 2024-04-13 18:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 18:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 19:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 19:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 20:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:01:58 --> CSRF token verified.
+INFO - 2024-04-13 21:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:02:49 --> CSRF token verified.
+INFO - 2024-04-13 21:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:02:56 --> CSRF token verified.
+INFO - 2024-04-13 21:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:08 --> CSRF token verified.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:35 --> CSRF token verified.
+INFO - 2024-04-13 21:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:42 --> CSRF token verified.
+INFO - 2024-04-13 21:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:03:52 --> CSRF token verified.
+INFO - 2024-04-13 21:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:31:36 --> CSRF token verified.
+INFO - 2024-04-13 21:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:32:41 --> CSRF token verified.
+INFO - 2024-04-13 21:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 21:58:51 --> CSRF token verified.
+INFO - 2024-04-13 22:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:06 --> CSRF token verified.
+INFO - 2024-04-13 22:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:09 --> CSRF token verified.
+INFO - 2024-04-13 22:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:15 --> CSRF token verified.
+INFO - 2024-04-13 22:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:24 --> CSRF token verified.
+INFO - 2024-04-13 22:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:27 --> CSRF token verified.
+INFO - 2024-04-13 22:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:31 --> CSRF token verified.
+INFO - 2024-04-13 22:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:34 --> CSRF token verified.
+INFO - 2024-04-13 22:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:38 --> CSRF token verified.
+INFO - 2024-04-13 22:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:41 --> CSRF token verified.
+INFO - 2024-04-13 22:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:48 --> CSRF token verified.
+INFO - 2024-04-13 22:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:51 --> CSRF token verified.
+INFO - 2024-04-13 22:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:00 --> CSRF token verified.
+INFO - 2024-04-13 22:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:04 --> CSRF token verified.
+INFO - 2024-04-13 22:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:07 --> CSRF token verified.
+INFO - 2024-04-13 22:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:11 --> CSRF token verified.
+INFO - 2024-04-13 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:14 --> CSRF token verified.
+INFO - 2024-04-13 22:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:09:17 --> CSRF token verified.
+INFO - 2024-04-13 22:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 22:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 23:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-13 23:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-13 23:57:30 --> ErrorException: Attempt to read property "NomeCompleto" on null
+in APPPATH/Models/RespModel.php on line 92.
+ 1 APPPATH/Models/RespModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(140): App\Models\RespModel->gatherRespDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->statusResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 23:57:30 --> ErrorException: Attempt to read property "NomeCompleto" on null
+in APPPATH/Models/RespModel.php on line 92.
+ 1 APPPATH/Models/RespModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(140): App\Models\RespModel->gatherRespDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->statusResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-13 23:57:36 --> ErrorException: Attempt to read property "NomeCompleto" on null
+in APPPATH/Models/RespModel.php on line 92.
+ 1 APPPATH/Models/RespModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/RespController.php(140): App\Models\RespModel->gatherRespDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\RespController->statusResp()
+ 4 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-13 23:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

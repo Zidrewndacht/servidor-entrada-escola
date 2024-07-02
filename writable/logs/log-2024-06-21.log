@@ -1,0 +1,48 @@
+CRITICAL - 2024-06-21 14:10:36 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 2
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 651.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH\codeigniter4\shield\src\Controllers\LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 14:10:40 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 2
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 651.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH\codeigniter4\shield\src\Controllers\LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 20:51:47 --> ErrorException: Attempt to read property "NomeCompleto" on null
+in APPPATH\Models\RespModel.php on line 151.
+ 1 APPPATH\Models\RespModel.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "NomeCompleto" on null', 'D:\\!staging\\TESC-IoT\\App\\App\\Models\\RespModel.php', 151)
+ 2 APPPATH\Controllers\RespController.php(155): App\Models\RespModel->gatherRespDetail('1234567809')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\RespController->statusRespUser('1234567809', '1234567809')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RespController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 21:08:43 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 651.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH\codeigniter4\shield\src\Controllers\LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 21:08:47 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 651.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH\codeigniter4\shield\src\Controllers\LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 23:18:55 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+in VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 651.
+ 1 VENDORPATH\codeigniter4\shield\src\Authentication\Authenticators\Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH\codeigniter4\shield\src\Controllers\LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

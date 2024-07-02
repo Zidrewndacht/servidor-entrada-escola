@@ -1,0 +1,269 @@
+ERROR - 2024-06-17 23:03:03 --> fkhjgdiojhhjg984w5u8quaj09g54
+ERROR - 2024-06-17 23:03:03 --> fkhjgdiojhhjg984w5u8quaj09g54
+ERROR - 2024-06-17 23:03:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`)) in D:\!staging\TESC-IoT\App\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\!staging\TESC-IoT\App\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\!staging\TESC-IoT\App\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\!staging\TESC-IoT\App\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\!staging\TESC-IoT\App\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\!staging\TESC-IoT\App\App\Models\StatusModel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\!staging\TESC-IoT\App\App\Controllers\AlunoController.php(143): App\Models\StatusModel->insertEvent(Object(stdClass))
+#6 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+#7 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+#8 D:\!staging\TESC-IoT\App\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\!staging\TESC-IoT\App\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 23:03:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 2 APPPATH\Models\StatusModel.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\AlunoController.php(143): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 23:03:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'1234444444444444aaa 2240\', \'2024-06-17 23:03:04\', \'Entrada\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'1234444444444444aaa 2240\', \'2024-06-17 23:03:04\', \'Entrada\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 4 APPPATH\Models\StatusModel.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\AlunoController.php(143): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 23:03:03 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sistema`.`eventos`, CONSTRAINT `eventos_ibfk_1` FOREIGN KEY (`AlunoID`) REFERENCES `cad_alunos` (`Matr`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'1234444444444444aaa 2240\', \'2024-06-17 23:03:04\', \'Entrada\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'1234444444444444aaa 2240\', \'2024-06-17 23:03:04\', \'Entrada\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (\'1234444444444444aaa 2240\', \'2024-06-17 23:03:04\', \'Entrada\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eventos` (`AlunoID`, `DataHora`, `Tipo`) VALUES (:AlunoID:, :DataHora:, :Tipo:)', [...], false)
+ 5 APPPATH\Models\StatusModel.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\AlunoController.php(143): App\Models\StatusModel->insertEvent(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 23:11:04 --> Failed to validate token on data: stdClass Object
+(
+    [username] => esp32.iot.gate
+    [topic] => rfid_lido/132347
+    [timestamp] => 1718676664009
+    [qos] => 2
+    [publish_received_at] => 1718676664009
+    [pub_props] => stdClass Object
+        (
+            [User-Property] => stdClass Object
+                (
+                )
+
+        )
+
+    [peerhost] => 2804:30c:1811:2700:e665:b8ff:fe28:a830
+    [payload] => {
+	"timestamp":	1718676664,
+	"Matr":	"132347",
+	"Turma":	"INF1 2022",
+	"Aluno":	"Maria Clara de Souza",
+	"Tag_ID":	"123456A2"
+}
+    [node] => emqx@127.0.0.1
+    [metadata] => stdClass Object
+        (
+            [rule_id] => rf_lido_WH_D
+        )
+
+    [id] => 00061B20980AC206F445200020BA0002
+    [flags] => stdClass Object
+        (
+            [retain] => 
+            [dup] => 
+        )
+
+    [event] => message.publish
+    [clientid] => ESP32_28A830
+)
+
+ERROR - 2024-06-17 23:11:04 --> fkhjgdiojhhjg984w5u8quaj09g54a
+ERROR - 2024-06-17 23:11:04 --> fkhjgdiojhhjg984w5u8quaj09g54
+CRITICAL - 2024-06-17 23:11:04 --> Error: Call to undefined method App\Controllers\AlunoController::fail()
+in APPPATH\Controllers\AlunoController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 23:11:08 --> Failed to validate token on data: stdClass Object
+(
+    [username] => esp32.iot.gate
+    [topic] => rfid_lido/132347
+    [timestamp] => 1718676668048
+    [qos] => 2
+    [publish_received_at] => 1718676668048
+    [pub_props] => stdClass Object
+        (
+            [User-Property] => stdClass Object
+                (
+                )
+
+        )
+
+    [peerhost] => 2804:30c:1811:2700:e665:b8ff:fe28:a830
+    [payload] => {
+	"timestamp":	1718676668,
+	"Matr":	"132347",
+	"Turma":	"INF1 2022",
+	"Aluno":	"Maria Clara de Souza",
+	"Tag_ID":	"123456A2"
+}
+    [node] => emqx@127.0.0.1
+    [metadata] => stdClass Object
+        (
+            [rule_id] => rf_lido_WH_D
+        )
+
+    [id] => 00061B209848646DF445200020BA0003
+    [flags] => stdClass Object
+        (
+            [retain] => 
+            [dup] => 
+        )
+
+    [event] => message.publish
+    [clientid] => ESP32_28A830
+)
+
+ERROR - 2024-06-17 23:11:08 --> fkhjgdiojhhjg984w5u8quaj09g54a
+ERROR - 2024-06-17 23:11:08 --> fkhjgdiojhhjg984w5u8quaj09g54
+CRITICAL - 2024-06-17 23:11:08 --> Error: Call to undefined method App\Controllers\AlunoController::fail()
+in APPPATH\Controllers\AlunoController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 23:11:36 --> Received data: stdClass Object
+(
+    [username] => esp32.iot.gate
+    [topic] => rfid_lido/132347
+    [timestamp] => 1718676696132
+    [qos] => 2
+    [publish_received_at] => 1718676696132
+    [pub_props] => stdClass Object
+        (
+            [User-Property] => stdClass Object
+                (
+                )
+
+        )
+
+    [peerhost] => 2804:30c:1811:2700:e665:b8ff:fe28:a830
+    [payload] => {
+	"timestamp":	1718676697,
+	"Matr":	"132347",
+	"Turma":	"INF1 2022",
+	"Aluno":	"Maria Clara de Souza",
+	"Tag_ID":	"123456A2"
+}
+    [node] => emqx@127.0.0.1
+    [metadata] => stdClass Object
+        (
+            [rule_id] => rf_lido_WH_D
+        )
+
+    [id] => 00061B2099F4EC6DF445200020BA0004
+    [flags] => stdClass Object
+        (
+            [retain] => 
+            [dup] => 
+        )
+
+    [event] => message.publish
+    [clientid] => ESP32_28A830
+)
+
+ERROR - 2024-06-17 23:11:40 --> Received data: stdClass Object
+(
+    [username] => esp32.iot.gate
+    [topic] => rfid_lido/132347
+    [timestamp] => 1718676700171
+    [qos] => 2
+    [publish_received_at] => 1718676700171
+    [pub_props] => stdClass Object
+        (
+            [User-Property] => stdClass Object
+                (
+                )
+
+        )
+
+    [peerhost] => 2804:30c:1811:2700:e665:b8ff:fe28:a830
+    [payload] => {
+	"timestamp":	1718676700,
+	"Matr":	"132347",
+	"Turma":	"INF1 2022",
+	"Aluno":	"Maria Clara de Souza",
+	"Tag_ID":	"123456A2"
+}
+    [node] => emqx@127.0.0.1
+    [metadata] => stdClass Object
+        (
+            [rule_id] => rf_lido_WH_D
+        )
+
+    [id] => 00061B209A328E6DF445200020BA0005
+    [flags] => stdClass Object
+        (
+            [retain] => 
+            [dup] => 
+        )
+
+    [event] => message.publish
+    [clientid] => ESP32_28A830
+)
+
+ERROR - 2024-06-17 23:14:26 --> Received data: stdClass Object
+(
+    [username] => esp32.iot.gate
+    [topic] => rfid_lido/132347
+    [timestamp] => 1718676866574
+    [qos] => 2
+    [publish_received_at] => 1718676866574
+    [pub_props] => stdClass Object
+        (
+            [User-Property] => stdClass Object
+                (
+                )
+
+        )
+
+    [peerhost] => 2804:30c:1811:2700:e665:b8ff:fe28:a830
+    [payload] => {
+	"timestamp":	1718676867,
+	"Matr":	"132347",
+	"Turma":	"INF1 2022",
+	"Aluno":	"Maria Clara de Souza",
+	"Tag_ID":	"123456A2"
+}
+    [node] => emqx@127.0.0.1
+    [metadata] => stdClass Object
+        (
+            [rule_id] => rf_lido_WH_D
+        )
+
+    [id] => 00061B20A41DA939F445200020BA0006
+    [flags] => stdClass Object
+        (
+            [retain] => 
+            [dup] => 
+        )
+
+    [event] => message.publish
+    [clientid] => ESP32_28A830
+)
+
+CRITICAL - 2024-06-17 23:14:26 --> Error: Call to undefined method App\Controllers\AlunoController::respond()
+in APPPATH\Controllers\AlunoController.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AlunoController->POSTevtAluno()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AlunoController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

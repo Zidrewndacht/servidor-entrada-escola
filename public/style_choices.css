@@ -1,0 +1,70 @@
+/* Personalização Choices.js, importado por Views/admin/assoc.php*/
+
+.choices {
+    margin-right: 24px;
+    margin-bottom: 0px;
+}
+.choices[data-type*="select-multiple"] .choices__button, .choices[data-type*="text"] .choices__button {
+    position: relative;
+    display: inline-block;
+    margin: 0 1.5px 0 12px;
+    padding-left: 12px;
+    border-left: none;
+    background-repeat: no-repeat;
+    width: 4px;
+    line-height: 1;
+    opacity: 1;
+    border-radius: 0 2px 2px 0;
+    filter: invert(1);
+}
+
+.choices__inner{
+    border: 1px solid #999c;
+    background: #fff8;
+    border-radius: 4px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    font-size: 14px;
+    overflow: auto;
+    scrollbar-color: #374a72c0 #1112;
+    scrollbar-width: 60px;   
+}
+.choices__list--multiple .choices__item{
+    display: inline-block;
+    /* vertical-align: middle; */
+    border-radius: 4px;
+    padding: 4px 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 3px;
+    background-color: #fff4;
+    border: 1px solid #999c;
+    color: #111;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+.choices__list--dropdown .choices__item, .choices__list[aria-expanded] .choices__item {
+    padding: 5px;
+}
+.choices__list--dropdown .choices__list, .choices__list[aria-expanded] .choices__list {
+    max-height: 224px;
+}
+
+
+.choices__list--multiple .choices__item.is-highlighted {
+    background: linear-gradient( #ebebeb 0%, #d3d3d3 100%);
+    border: 1px solid #999c;
+   }
+
+input[type="search"].choices__input {
+    display: block;
+    background: transparent;
+    font-size: 14px;
+    margin: 0px;
+    border: 0;
+    border-radius: 0;
+    max-width: 100%;
+    padding: 4px 0 4px 2px;
+}

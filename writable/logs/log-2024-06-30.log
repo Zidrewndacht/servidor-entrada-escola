@@ -1,0 +1,12 @@
+CRITICAL - 2024-06-30 23:46:14 --> Error: Call to undefined method App\Controllers\MQTTController::respond()
+in APPPATH\Controllers\MQTTController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MQTTController->POSTevtAluno()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MQTTController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-30 23:47:25 --> Error: Call to undefined method App\Controllers\MQTTController::response()
+in APPPATH\Controllers\MQTTController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MQTTController->POSTevtAluno()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MQTTController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

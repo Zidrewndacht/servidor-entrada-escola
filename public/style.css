@@ -1,0 +1,448 @@
+/*Estilo geral para páginas de login, licenças e PWA responsável*/
+
+:root {
+    --text-color: #111;
+    --background-color: hsl(230, 18%, 95%);
+    --gradient-color: #fff;
+    --table-row-even: hsl(200, 19%, 96%);
+    --table-row-odd: #ffff;
+    --card-background: linear-gradient(180deg, hsla(220, 30%, 85%, .5) 60%, #fff 50%);
+    --status-background:  linear-gradient(180deg, #fff6 80%, transparent 100%);
+    --text-shadow-color: #fff;
+    --scroll-color-1: #2233;
+    --scroll-color-2: hsl(200, 19%, 96%);
+    --link-color: hsl(221, 35%, 33%);
+    --error-color: darkred;
+    --box-shadow-color: #2223;
+
+    --login-background-color: #f5f5f5;
+    --login-background: linear-gradient(0deg, transparent 0%, #f5f5f5 25%, #f5f5f5 75%, transparent 100%), 
+                    url("/floating-cogs.svg");
+    --modal-background: linear-gradient(#d1d1d1 0%, #eaeaea 20%);
+    --submit-background: linear-gradient(hsl(219, 35%, 33%) 0%, hsl(220, 40%, 42%) 100%);
+    --submit-shadow: 0px 1px 10px 0px #0003;
+    --input-bg-color: #fff;
+    --input-color: #111;
+    --input-border: 1px solid #999;
+    --login-border-color: #888;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #eee;
+        --background-color: #151515;
+        --gradient-color: #000;
+        --table-row-even: hsl(230, 26%, 24%);
+        --table-row-odd: hsl(230, 26%, 16%);
+        --card-background: linear-gradient(180deg, hsl(230, 26%, 24%) 60%, hsl(230, 26%, 16%) 50%);
+        --status-background:  linear-gradient(180deg, hsl(230, 20%, 30%) 65%, transparent 100%);
+        --text-shadow-color: #000;
+        --link-color: hsl(221, 60%, 80%);
+        --error-color: pink;
+        --box-shadow-color: black;
+        --scroll-color-1: #fff4;
+        --scroll-color-2: hsl(230, 26%, 16%);
+        
+        --login-background-color: #151515;
+        --login-background: linear-gradient(0deg, black 0%, transparent 25%, transparent 75%, black 100%), 
+                        url("/floating-cogs.svg"); 
+          
+        --modal-background: linear-gradient(180deg, hsl(230, 26%, 28%) 15%, hsl(230, 26%, 18%) 50%);
+        --submit-background: linear-gradient(#6d3838 0%, #a44b4b 100%);
+        --submit-shadow: 0px 1px 10px 0px #0009;
+        --input-bg-color: #0008;
+        --input-color: #eee;
+        --input-border: 1px solid #000;    
+        --login-border-color: black;  
+    }
+}
+html{
+	font-family: system-ui, sans-serif;
+    font-size: 11pt;
+    color: var(--text-color);
+}
+body.pwa-resp {
+	font-family: system-ui, sans-serif;
+    color: var(--text-color);
+    overscroll-behavior-y: none;
+    font-size: 14pt;
+    text-shadow: 0px  3px 6px var(--text-shadow-color),
+                 0px -3px 6px var(--text-shadow-color),
+                 3px  0px 6px var(--text-shadow-color),
+                -3px  0px 6px var(--text-shadow-color);
+    min-width: 270px;
+    min-height: 100vh;
+    background: linear-gradient(0deg, var(--gradient-color) 0%, transparent 25%, transparent 75%, var(--gradient-color) 100%), 
+                url("/floating-cogs.svg");
+	background-color: var(--background-color);
+	background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+	gap: 30px;
+}
+a{
+    color: var(--link-color);
+    text-decoration: none;
+}
+p{
+    padding: 4px;
+}
+#status-resp-header {
+    padding: 9px;
+    font-size: 12pt;
+    /*! height: 100px; */
+}
+#resp-footer {
+    margin-top: auto;
+    padding: 12px;
+    font-size: 11pt;
+    text-align: center;
+}
+#resp-footer p{
+    padding:10px;
+}
+
+/* Regras gerais para tabelas */
+table {
+    border-collapse:separate;   /*collapse quebra bordas redondas*/
+	border-spacing: 0;
+    overflow: hidden;
+    width: 100%;
+    background: transparent;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	font-size: 10pt;
+	padding: 9px 12px;
+}
+td {
+    padding: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+tr:nth-child(2n+2) { background-color: var(--table-row-even); }
+tr:nth-child(2n+1) { background-color: var(--table-row-odd);  }
+
+
+#card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; /* talvez nem sempre suportado? */
+    align-items: center;
+    align-content: space-around;
+    z-index: 1;
+    gap: 8px;
+    margin: auto;
+    width: 100%;
+    text-shadow: 0px 0px 9px var(--text-shadow-color);
+}
+
+.aluno-card {
+    flex: 1 0 20%;
+    margin: 0 auto;
+    color: var(--text-color);
+    min-width: 290px;
+    max-width: 400px;
+    max-height: calc(100vh);
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid #0004;    /*translúcido preto, não precisa mudar em tema escuro*/
+    box-shadow: 0 0 8px 2px var(--box-shadow-color);
+    background: var(--card-background);
+
+}
+
+.aluno-card>h1{ /* Eventos info*/
+    text-align: center;
+    padding-bottom: 6px;
+    font-size: 20pt;
+    border-bottom: 1px solid #0003;    /*translúcido preto, não precisa mudar em tema escuro*/
+}
+
+.scrollable{    /* Não existe overflow: em table, necessário que tabela seja filha de outro elemento:*/
+    overflow: auto;
+    max-height: calc(100vh - 460px);
+    scrollbar-color: var(--scroll-color-1) var(--scroll-color-2);
+    scrollbar-width: 6px;
+    min-height: 150px;
+}
+
+.aluno-card td {
+    padding: 5px;
+}
+.aluno-card th {
+    font-size: 14pt;
+}
+
+.aluno-status {
+    display: block;
+    padding: 12px 16px 0 16px;
+    margin: 0;
+    background: var(--status-background);
+    border-radius: 18px 18px 0 0;
+}
+
+#logout-btn{
+    height:100%;
+    padding: 10px;
+    background: linear-gradient(#6d3838 0%, #a44b4b 100%);
+    color: white;
+    text-shadow: 0px 1px 8px black;
+    vertical-align:middle;
+    border: 1px solid #333; 
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    margin: 8px;    
+    box-shadow: 0px 0px 8px black;
+    border-radius: 12px;
+    font-size: 15pt;
+}
+
+.status-aluno-header-table :nth-child(even), .status-aluno-header-table :nth-child(odd),
+.status-resp-header-table :nth-child(even), .status-resp-header-table :nth-child(odd){
+    background: transparent;
+}
+.status-aluno-header-table td,
+.status-resp-header-table td{
+    padding: 1px 4px;
+    text-align: left;
+    vertical-align: top;
+}
+.status-resp-header-table{
+    max-width: 270px;
+}
+.status-resp-header-table td:nth-child(odd){
+    text-align: right;
+}
+
+.modal-status h1 {
+    padding: 2px;
+    margin: 2px;
+    display: block;
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: 0 1px 5px var(--text-shadow-color);
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.login-wrapper,  #licenses-panel{  
+    display: grid; 
+    place-items: center; 
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; 
+    width: 100vw; height: 100vh; 
+    justify-content: center;
+    background: var(--login-background);
+    background-color: var(--login-background-color);
+}
+.login-wrapper{
+    grid-template-rows: 1fr 400px 1fr;
+}
+.login-title{
+    font-family: system-ui, sans-serif; font-weight: 400; font-size: 16pt; animation: fadeIn 0.5s ease-out;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 1px 5px var(--text-shadow-color);
+}
+#modal-login{
+    background: var(--modal-background);
+    border: 1px solid var(--login-border-color);
+    box-shadow: 0px 2px 20px var(--box-shadow-color);
+    padding: 0;
+    border-radius: 13px;
+    min-width: 270px;
+    max-width: 540px;
+    width: 90vw;
+}
+.modal-status {
+    display: block;
+    padding: 16px 22px 28px 22px;
+    border-radius: 14px 14px 0 0; 
+    margin: 0;
+}
+
+#session-info-field {
+    color: var(--error-color);
+    text-shadow: var(--text-shadow-color);
+}
+#session-info-field .alert-success {
+    color: var(--link-color);
+    text-shadow: var(--text-shadow-color);
+}
+form {
+	display: grid;
+	grid-template-columns: min-content 1fr; /* evita grande espaço vazio para labels */
+	column-gap: 12px;
+	row-gap: 4px;
+	padding: 0;
+}
+
+form label {
+	grid-column: 1 / 2;
+	padding: 0px 0px 0px 24px;
+	align-self: center;
+    justify-self: right;
+    white-space: nowrap;
+    display: block;
+}
+
+input, select, #ask-tag-btn{
+	grid-column: 2 / 3;
+	margin-right: 24px;
+    padding: 8px;
+}
+form p {
+	grid-column: 1 / 3;
+	padding: 8px 24px 8px 24px;
+    text-align: justify;
+}
+
+input[type="submit"], #ask-tag-btn {
+    grid-column: 1 / 3;
+    margin: 16px;
+    height: 48px;
+	background: var(--submit-background);
+    box-shadow: var(--submit-shadow);
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-decoration:none;
+    font-size: 15pt;
+    color: white;
+    text-shadow: 0px 1px 8px black;
+    font-weight: 400;
+    transition: 0.5s all ease-in-out;
+
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    justify-self: left;
+    width: 40px;
+    height: 40px;
+    background: var(--input-bg-color);
+    border: var(--input-border);
+    background: var(--input-bg-color);
+    color: var(--input-color);
+    border-radius: 6px;
+    transition: 0.25s all ease;
+}
+
+
+/* Pseudo element for check styling */
+input[type="checkbox"]:checked{
+    color: hsl(221, 35%, 33%);
+    background-color: currentcolor;
+    transition: 0.25s all ease;
+}
+
+input[type=checkbox]::before {
+    content: "";
+    color: transparent;
+    display: block;
+    height: inherit;
+    border: 0;
+    margin: 0;
+    transition: 0.25s all ease;
+  }
+  
+input[type=checkbox]:checked::before {
+  box-shadow: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+  
+  transition: 0.25s all ease;
+}
+
+
+  
+input[type="submit"]:hover {
+    transition: 0.5s all ease-in-out;
+    filter:saturate(200%) contrast(110% );
+}
+input[type="submit"]:active {
+    filter:brightness(80%) contrast(120%);
+    box-shadow: inset 1px 4px 16px 0 #0006;
+    transition: 0.2s all ease-in-out;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"] {
+    /* background: transparent; */
+    border: var(--input-border);
+    background: var(--input-bg-color);
+    color: var(--input-color);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+
+#licenses-panel {
+	margin: auto;
+	padding: 8px;
+    line-height: 1.5;
+}
+#licenses-panel h1, #licenses-panel p {
+	padding-top: 16px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 450px){
+    form{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        column-gap: 12px;
+        row-gap: 4px;
+        padding: 0;
+    }
+    
+    form label {
+        justify-self: baseline;
+        align-self: center;
+    }
+
+    input {
+        grid-column: 1 / 3;
+        padding: 8px;
+        margin:  0 12px 18px 12px;
+    }
+    form p {
+        grid-column: 1 / 3;
+        padding: 8px 24px 8px 24px;
+        text-align: justify;
+    }
+    input[type="checkbox"]{
+        grid-column: 2 / 3;
+        height:100%;
+        width: 100%;
+        justify-self: left;
+        
+    }
+}
+
+@media (max-width: 310px){
+    body.pwa-resp{
+        font-size: 13pt;
+        gap: 0;
+    }
+    .aluno-card {
+        min-width: 270px;
+    }
+}
+
+/* Usa Arial em telas de baixo DPI: */
+/* @media 
+(-webkit-max-device-pixel-ratio: 1), 
+(max-resolution: 96dpi) {
+    html {	
+        font-family: "Arial", system-ui, sans-serif;
+        font-weight: 400;
+    }
+} */
