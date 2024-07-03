@@ -27,7 +27,7 @@ h1 {
     margin: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 160px auto 100px 140px 120px 80px;
+    grid-template-columns: 100px 160px auto 100px 150px 130px 80px;
     align-items: center;
     transition: 0.5s opacity ease-in-out;
 }
@@ -701,7 +701,7 @@ input[type="submit"]:active , #ask-tag-btn:active,#evt-link-btn:active, #logout-
         z-index: -1;
     }
     #admin-wrapper{
-        grid-template-columns: 100px 160px auto 100px 140px 120px 80px 720px;
+        grid-template-columns: 100px 160px auto 100px 150px 130px 80px 720px;
     }
     #tabela-alunos-wrapper-outer {
         min-width: 1110px; max-width: 1440px;
