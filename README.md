@@ -4,16 +4,14 @@ Em desenvolvimento usando PHP com o framework CodeIgniter 4. É necessário conf
 
 Antes do primeiro uso, necessário criar o banco de dados sistema, criar as tabelas necessáras e as pré-preencher. O arquivo prefill.sql executa esta tarefa, criando uma conta administrativa admin@admin.com com senha admin1234, e alguns alunos e responsáveis fictícios.
 
-O arquivo emqx.conf configura o broker MQTT EMQX para uso com IPv6. Pode ser inserido no local correspondente (tipicamente /etc/) na sua instalação do EMQX.
+Os arquivos na pasta emqx (emqx.conf, config.hocon) configuram o broker MQTT EMQX para uso com IPv6 e definem o webhook necessário para transferir informações do dispositivo IoT para o servidor PHP. Podem ser inseridos no local correspondente na sua instalação do EMQX.
 
-## License
+## Licença
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
-Para licença dos componentes utilizados, verifique **/public/licenses.html**
+Este trabalho está licenciado sob a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc]. 
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+Para licença dos componentes de código-aberto utilizados, verifique **/public/licenses.html**
 
 [![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
 
